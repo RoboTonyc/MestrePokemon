@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Nerko+One&display=swap" rel="stylesheet">
+
+    <title>Mestre Pokémon</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/TelaInicio.jpg" alt="">
+            
+            <p>Comece sua jornada! Vá até o centro pokémon!</p>
+            <button class="btn-proximo" data-proximo="1">Centro Pokémon</button>
+
+        </div>
+        <div class="passo" id="passo-1">
+            <img src="img/Centro.jpg" alt="">
+            <p>Chegou a hora de escolher seu pokémon!</p>
+            <button class="btn-proximo" data-proximo="2">Escolher!</button>
+
+        </div>
+        <div class="passo" id="passo-2">
+            <img src="img/Johto.png" alt="Chikorita, Cyndaquill e Totodile">
+
+            <p>Escolha entre os pokemons: folha, fogo ou água.</p>
+            <button class="Chikorita btn-proximo" data-proximo="3">Folha</button>
+            <button class="Cynd btn-proximo" data-proximo="4">Fogo</button>
+            <button class="Toto btn-proximo" data-proximo="5">Água</button>
+            
+
+        </div>
+        
+        <div class="passo" id="passo-3">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/5HX3FuIEMmQ?si=63-B5z5G_5txQRc2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+            <p>VOCÊ ESCOLHEU A CHIKORITA!</p>
+            <p></p>
+            <P>O que você deseja fazer a seguir?</P>
+            <button class="btn-proximo" data-proximo="6">TREINAR</button>
+            <button class="btn-proximo" data-proximo="7">BATALHAR</button>
+        
+    </div>
+    <div class="passo" id="passo-4">
+       <img src="img/cynd.jpg" alt="">
+        <p>VOCÊ ESCOLHEU A Cyndaquill!</p>
+        <p></p>
+        <P>O que você deseja fazer a seguir?</P>
+        <button class="btn-proximo" data-proximo="6">TREINAR</button>
+        <button class="btn-proximo" data-proximo="7">BATALHAR</button>
+
+        
+    </main>
+    <Script src="script.js"></Script>
+</body>
+</html>
